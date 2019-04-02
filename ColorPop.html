@@ -1,0 +1,78 @@
+<!doctype html> <center> <head> <title>GreenApple</title>
+<meta charset="utf-8"> </head>
+
+<style>
+.Title{text-decoration: none; color:#86E57F;  font-size:55px; font-family: "나눔바른고딕"; text-align: center;  border-bottom:10px solid white; margin:0; padding:20px; }
+.Normal{color:black; text-decoration: none; font-size: 20px;}
+.Watching{color:green; font-size: 20px;}
+body{margin:0; background-color: #E4F7BA; }
+ol{ height: 500px; border-right:5px solid green; width:200px; padding:0px; background-color: white;  text-align: left; }
+#GridForMenuAndArticle{display: grid; grid-template-columns: 500px 500px;}
+#GameMenu {margin-top: 20px; padding-top: 20px; border-top-style:dashed; color:green; width:200px;  text-align: left;}
+#article{ text-align: left; padding-top : 10px;  padding-left:0px; font-size:20px; }
+
+.btn { display:block; width:200px; height:40px; line-height:40px; border:1px white solid;;  background-color: white; text-align:left; cursor: pointer; color: black; font-family: "나눔바른고딕"; font-size: 22px; transition:all 0.4s;}
+.btn:hover{color:white;}
+.hover1:hover{ box-shadow:200px 0 0 0 #ABF200 inset; }
+.hover2:hover{ box-shadow:200px 0 0 0 #FFB9B9 inset; }
+
+</style>
+
+
+
+<!--사이트 방문 통계-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137537672-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-137537672-1');
+</script>
+
+
+
+<body>
+<p style="margin-top:30px;"><h1> <a href = "GreenAppleHome.html" class="Title">GreenApple Studio</a></h1></p>
+
+<div id="GridForMenuAndArticle">
+  <ol>
+    <button class="btn hover1" onclick="location.href = 'GreenAppleHome.html'"> 홈 </button>
+    <button class="btn hover1" onclick="location.href = 'Introduction.html'" > GreenApple 소개 </button>
+    <button class="btn hover1" onclick="location.href = 'Contact.html'" > Contact Us </button>
+    <button class="btn hover1" onclick="location.href = 'DevStory.html'" > 개발 노트 </button>
+    <button class="btn hover1" onclick="location.href = 'UnityStudy.html'"> 유니티 스터디 </button>
+    <div id="GameMenu">
+      <button class="btn hover2" onclick="location.href = 'Bottle1Escape.html'" > Bottle 1 Escape </button>
+      <button class="btn hover2" onclick="location.href = 'ColorPop.html'" > ColorPop </button>
+      <button class="btn hover2" onclick="location.href = 'TMT.html'"> TMT </button>
+    </div>
+  </ol>
+    <div id="article">
+      <img src="move.gif" height="300">
+      <iframe width="560" height="315" src="https://youtu.be/qxdkA3ty7xc" frameborder="0" allowfullscreen></iframe>
+      <p><h4><a href="https://play.google.com/store/apps/details?id=com.GreenApple.ColorPop" target="_blank" title="ColorPop 다운로드 페이지로 이동합니다" id="hyperlink">▶다운받으려면 여기를 클릭하세요◀</a></h4></p>
+    </div>
+</div>
+
+
+
+<!--댓글 기능-->
+<p>
+  <div id="disqus_thread"></div>
+  <script>
+  (function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://greenapple-1.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+
+
+
+</body>
+</center>
+</html>
