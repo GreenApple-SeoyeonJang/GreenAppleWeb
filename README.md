@@ -1,5 +1,3 @@
-#READ ME
+# For GreenApple Studio Web Hosting
 
-For GreenApple Game Studio Web Hosting
-
-Enjoy Our Games by visiting Here -> https://greenapple-jsy.github.io/GreenAppleWeb/GreenAppleHome
+https://greenapple-jsy.github.io/GreenAppleWeb/GreenAppleHome
